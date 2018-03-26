@@ -4,3 +4,5 @@ maxsubarray: maxsubarray.c
 	$(CC) $(CFLAGS) -o maxsubarray maxsubarray.c
 hello: hello.hs
 	ghc -o hello hello.hs
+monge: monge.hs
+	ghc -o monge monge.hs
